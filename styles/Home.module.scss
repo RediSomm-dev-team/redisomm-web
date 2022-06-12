@@ -1,2 +1,17 @@
-@use 'variables.module';
+@import 'variables.module';
 
+.navbar {
+  border-bottom: 1px solid $clr-primary-dark;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  filter: drop-shadow(0 .5mm 1mm $clr-primary-dark);
+}
+
+.rightside {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid blue;
+}
