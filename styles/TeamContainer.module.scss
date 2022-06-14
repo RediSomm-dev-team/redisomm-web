@@ -1,0 +1,52 @@
+@import './variables.module';
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 300px;
+    gap: 1rem;
+  }
+  
+  .innerContainer {
+    padding: 15px 12px;
+    border-radius: .5rem;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    background-color: $clr-primary;
+    flex-wrap: wrap;
+  }
+  
+  .pic {
+    border-radius: .5rem;
+  }
+  
+  .name {
+    margin-top: 3px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: $clr-primary-light;
+    background-color: $clr-primary;
+  }
+  
+  .links {
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    gap: 1ch;
+    background-color: $clr-primary;
+  }
+  
+  .links a {
+    font-size: 2rem;
+    background-color: $clr-primary;
+  }
+
+  .position {
+    color: $clr-primary-light;
+    background-color: $clr-primary;
+  }
