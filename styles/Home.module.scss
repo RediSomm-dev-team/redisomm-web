@@ -8,10 +8,31 @@
   flex-direction: row;
   justify-content: space-between;
   filter: drop-shadow(0 .5mm 1mm $clr-primary-dark);
+  z-index: 2;
+  top: 0;
+  padding: 0 10vw;
 }
 
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10vw;
+}
 .rightside {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border: 2px solid blue;
+}
+
+.titleContainer {
+  border: 1px solid black;
+  margin-top: 9em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
 }
