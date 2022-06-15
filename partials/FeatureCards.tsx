@@ -11,7 +11,7 @@ const FeatureCards = () => {
       <h4>Integrate Google Lighthouse into your development process with automated data capture and insightful comparisons.</h4>
     
       <span>
-        Vantage is a data collection and reporting suite that developers can add to their Next.js project to gather <a href=
+        RediSomm is a data collection and reporting suite that developers can add to their Redis project to gather <a href=
         'https://developers.google.com/web/tools/lighthouse'>Google Lighthouse</a> metrics during development.  Vantage runs automatically and in the background when you commit, gathering data over time and allowing you to explore results and recommendations via a user-friendly interface. 
       </span>
       <div className={styles.cardContainer}>
@@ -37,7 +37,7 @@ const FeatureCards = () => {
 const featureData = [
   {
     title: "TTL LIVE COUNTER",
-    desc: "Vantage runs in the background as you commit, consolidating data over time so it's quick and easy to look back at your site's improvement",
+    desc: "RediSomm provides TTL LIVE COUNTER information to allow you to receive notification for Time to live you setup for your keywords and help free up space.",
     icon: <BiGitBranch />,
     color: "2096F3",
     backgroundColor: "#E3F2FD",
@@ -51,14 +51,14 @@ const featureData = [
   },
   {
     title: "DATABASE METRICS",
-    desc: "Designed for the structure of Next.js projects, Vantage will detect and traverse all endpoints of your project to automatically gather data with minimal setup",
+    desc: "RediSomm provides varities of metrics such as keyspace misses over time, usage, number of keys by data type, and many more to come.",
     icon: <RiRouteLine />,
     color: "#00C852",
     backgroundColor: "#c8f7d5",
   },
   {
     title: "DESKTOP GUI",
-    desc: "Designed for the structure of Next.js projects, Vantage will detect and traverse all endpoints of your project to automatically gather data with minimal setup",
+    desc: "Experience standalone desktop app that provides an intuitive and efficient GUI for Redis. RediSomm allows to interact with your databases, monitor, and manage your data.",
     icon: <RiRouteLine />,
     color: "#00C852",
     backgroundColor: "#c8f7d5",

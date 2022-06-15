@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    margin: 0 2rem;
+    display: grid;
+    align-items: center;
+    grid-gap: 2rem;
+    grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr);
+  }
+  
+  .terminalContainer {
+    min-height: 2rem !important;
+    /* min-width: 25ch !important; */
+  }
+  
+  .terminalContainer pre {
+    background-color: inherit;
+    margin: 0
+  }
+  
+  .copy {
+    position: absolute;
+    top: 55px;
+    right: 15px;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 1000px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  
+    .terminalContainer:first-child {
+      grid-row: 2/2;
+    }
+  
+    .terminalContainer:last-child {
+      grid-row: 1/2;
+    }
+  }

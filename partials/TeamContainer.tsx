@@ -63,7 +63,7 @@ const data = [
   {
     linkedIn: "https://www.linkedin.com/in/andreabennett42/",
     github: "https://github.com/AndreaBennett42/",
-    name: "Andrea Bennet",
+    name: "Andrea Bennett",
     src: "/team_photos/young_kim.png",
   },
   {
