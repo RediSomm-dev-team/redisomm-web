@@ -70,7 +70,7 @@ const data = [
     linkedIn: "https://www.linkedin.com/in/andrew-c-park/",
     github: "https://github.com/andrewcpark/",
     name: "Andrew Park",
-    src: "/team_photos/young_kim.png",
+    src: "/team_photos/andrew_park.jpg",
   },
   {
     linkedIn: "https://www.linkedin.com/in/cartersamj/",

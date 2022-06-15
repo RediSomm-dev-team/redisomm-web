@@ -1,1 +1,1 @@
-declare module 'react-window-ui'
+declare module 'react-window-ui';

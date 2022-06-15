@@ -13,7 +13,7 @@ const Title = (): JSX.Element => {
       animate={{ x: 0 }}
       transition={{ type: "spring", bounce: 0.25, duration: 0.5 }}
       >
-      Monitor and Track Your Redis TTL Keys with YOUNGKIM
+      Monitor and Track Your Redis TTL Keys with REDISOMM
       </motion.h1>
       <motion.div
           className={styles.dashboardImage}
@@ -26,7 +26,7 @@ const Title = (): JSX.Element => {
             height={450}
             layout='intrinsic'
             priority
-            src='/team_photos/young_kim.png'
+            src='/images/RediSomm_demo1.png'
             alt='Screenshot of RediSomm'
           />
       </motion.div>
