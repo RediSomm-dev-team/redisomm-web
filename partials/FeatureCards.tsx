@@ -37,7 +37,7 @@ const FeatureCards = () => {
 const featureData = [
   {
     title: "TTL LIVE COUNTER",
-    desc: "Vantage runs in the background as you commit, consolidating data over time so it's quick and easy to look back at your site's improvement",
+    desc: "RediSomm provides TTL LIVE COUNTER information to allow you to receive notification for Time to live you setup for your keywords and help free up space.",
     icon: <BiGitBranch />,
     color: "2096F3",
     backgroundColor: "#E3F2FD",
@@ -51,14 +51,14 @@ const featureData = [
   },
   {
     title: "DATABASE METRICS",
-    desc: "Designed for the structure of Next.js projects, Vantage will detect and traverse all endpoints of your project to automatically gather data with minimal setup",
+    desc: "RediSomm provides varities of metrics such as keyspace misses over time, usage, number of keys by data type, and many more to come.",
     icon: <RiRouteLine />,
     color: "#00C852",
     backgroundColor: "#c8f7d5",
   },
   {
     title: "DESKTOP GUI",
-    desc: "Designed for the structure of Next.js projects, Vantage will detect and traverse all endpoints of your project to automatically gather data with minimal setup",
+    desc: "Experience standalone desktop app that provides an intuitive and efficient GUI for Redis. RediSomm allows to interact with your databases, monitor, and manage your data.",
     icon: <RiRouteLine />,
     color: "#00C852",
     backgroundColor: "#c8f7d5",
