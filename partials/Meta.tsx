@@ -12,7 +12,7 @@ const Meta = (): JSX.Element => {
     <meta name="og:description" property="og:description" content="" />
     <meta property="og:site_name" content="RediSomm" />
     <meta property="og:url" content="" />  
-    <link rel="icon" type="image/png" href="/static/images/favicon.ico" />
+    <link rel="icon" type="image/png" href="/favicon.ico" />
     <link rel="canonical" href="" />
   </Head>
 )};
