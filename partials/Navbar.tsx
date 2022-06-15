@@ -19,7 +19,7 @@ const Navbar = (): JSX.Element => {
       <div className="logo">
         <Image
           priority
-          src='/team_photos/young_kim.png'
+          src='/images/wordlogo.png'
           className='logoImage'
           width='363'
           height='102'
