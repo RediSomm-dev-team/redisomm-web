@@ -11,7 +11,7 @@ const FeatureCards = () => {
       <h4>Integrate Google Lighthouse into your development process with automated data capture and insightful comparisons.</h4>
     
       <span>
-        Vantage is a data collection and reporting suite that developers can add to their Next.js project to gather <a href=
+        RediSomm is a data collection and reporting suite that developers can add to their Redis project to gather <a href=
         'https://developers.google.com/web/tools/lighthouse'>Google Lighthouse</a> metrics during development.  Vantage runs automatically and in the background when you commit, gathering data over time and allowing you to explore results and recommendations via a user-friendly interface. 
       </span>
       <div className={styles.cardContainer}>
