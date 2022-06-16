@@ -1,18 +1,5 @@
 @import 'variables.module';
 
-.navbar {
-  border-bottom: 1px solid $clr-primary-dark;
-  position: fixed;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  filter: drop-shadow(0 .5mm 1mm $clr-primary-dark);
-  z-index: 2;
-  top: 0;
-  padding: 0 10vw;
-  background-color: $clr-primary-light;
-}
 
 .mainContainer {
   display: flex;
@@ -21,12 +8,7 @@
   justify-content: center;
   margin: 0 10vw;
 }
-.rightside {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  // border: 2px solid blue;
-}
+
 
 
 .titleContainer {
@@ -36,7 +18,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
+  padding: 1em;
 }
 
 .notAppTitle {
@@ -47,3 +29,13 @@
   color: $clr-primary;
   font-weight: 800;
 }
+
+.redisommDemo {
+  box-shadow: 10px 5px 5px lighten($clr-primary-dark, 50);
+}
+
+.text {
+  padding-right: 4em;
+  text-align: center;
+}
+
