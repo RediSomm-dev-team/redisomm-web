@@ -7,7 +7,28 @@
   align-items: center;
   padding: 2em 0;
 }
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .paragraph {
   padding: 0 2em;
+  flex: wrap;
+  width: 20vw;
+}
+
+.header {
+  padding: 0 2em;
+  width: 25vw;
+}
+
+.primaryClr {
+  color: $clr-primary;
+}
+
+.exampleImg {
+  box-shadow: 10px 5px 5px lighten($clr-primary-dark, 50);
 }

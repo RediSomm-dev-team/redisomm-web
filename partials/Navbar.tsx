@@ -31,7 +31,7 @@ const Navbar = (): JSX.Element => {
           Github <AiOutlineStar style ={{ backgroundColor: 'transparent' }}/> {stars}
         </a>
         <button className={styles.button} id={styles.docs} >Documentation</button>
-        <a className={styles.button} id="medium" type='submit' href="https://medium.com/@sammahcarter/how-to-track-individual-keyspace-misses-in-your-redis-databases-84e99fdf7a" target="_blank" rel="noopener noreferrer"><span>Medium Article</span></a>
+        <a className={styles.button} id="medium" type='submit' href="https://medium.com/@cartersamj/how-to-track-individual-keyspace-misses-in-your-redis-databases-84e99fdf7a" target="_blank" rel="noopener noreferrer"><span>Medium Article</span></a>
       </div>
     </div>
 )};
