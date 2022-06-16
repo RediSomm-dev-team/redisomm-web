@@ -21,9 +21,9 @@ const Home: NextPage = () => {
           <Title />
         <FeatureCards />
         <div className='terminalDisplay'>
-        <TerminalDisplay command={
+        {/* <TerminalDisplay command={
               "npm install" 
-          }/>
+          }/> */}
         </div>
         <div className={styles.cardContainer}>
           <h4>Meet the team!</h4>

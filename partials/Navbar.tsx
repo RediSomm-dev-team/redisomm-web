@@ -30,11 +30,12 @@ const Navbar = (): JSX.Element => {
       {/* <button className="download-button" role="button">
         download
         </button> */}
-         <button className="article-button">Medium Article</button>
+         
         <a className="github-button" href="https://github.com/oslabs-beta/RediSomm">
           Github <AiOutlineStar style ={{ backgroundColor: 'transparent' }}/> {stars} 
         </a>
         <button className="doc-button">DOCS</button>
+        <button className="article-button">Medium Article</button>
       </div>
     </div>
 )};
