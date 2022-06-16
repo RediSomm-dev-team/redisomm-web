@@ -7,6 +7,7 @@ import FeatureCards from '../partials/FeatureCards'
 import Carousel from '../partials/CarouselDisplay'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
+import ParagraphImage from '../partials/ParagraphImage'
 
 
 const Home: NextPage = () => {
@@ -18,6 +19,8 @@ const Home: NextPage = () => {
         <Navbar />
         <div className={styles.mainContainer}>
           <Title />
+          <ParagraphImage imageSide='left' />
+          <ParagraphImage imageSide='right' />
         <FeatureCards />
         <div className='terminalDisplay'>
         </div>
