@@ -1,0 +1,44 @@
+# Quick Start Guide
+
+Enter the following from within your project's root directory:
+```
+npm install vantage-next
+```
+
+## Git Hook Setup 
+If your project does not already have a post-commit git hook in place, this will be added automatically at the time of install.  If your project already has an existing post-commit hook, please navigate to `.git/hooks/post-commit` file and ensure that it contins the following line:
+
+```
+npx snapshot >&- 2>&- &
+```
+
+## Optional Configuration file
+The following fields can be configured based on the specifics of your project.  All values are optional (default values listed below).
+* **serverCommand**: The command that your project uses to start the serverCommand ```default: npm run start```
+* **buildCommand**: The command that your project uses to initiate a build ```default: npm run build```
+* **port**: Port where you would like the project to be launched.  If you use a custom server command, that will take precedence.  ```default: 3500```
+* **endpoints**: List any additional endpoints that should be tested.  The pages directory will be automatically traversed and included by default, but this is available to support testing of any dynamic endpoints.
+* **srcDirectory**: If your /pages folder is inside a /src/ directory, set this to true.  Otherwise Vantage will look for /pages/ directly in the root directory.
+
+Save the following as ```/vantage/vantage_config.json``` in project's root directory:
+```
+{
+  "nextAppSettings": {
+    "serverCommand" : "npm run start",
+    "buildCommand" : "npm run build",
+    "port" : "3000",
+    "endpoints" : [],
+    "srcDirectory" : "true"
+  }
+}
+```
+
+## Capturing a Snapshot
+Now that setup is complete, run ```git commit``` as usual.  The process will run in the background and outputs  will appear in the ```vantage``` subfolder within your project's root directly after several minutes.  If there are any issues, open ```run_history.log``` to check for any errors.
+
+## Opening the App
+To open the app just run the following from your project's root directory:
+```
+npx vantage
+```
+Alternatively, open `vantage/vantage_report.html` in your browser of choice (not IE)
