@@ -27,15 +27,18 @@ const Navbar = (): JSX.Element => {
           />
       </div>
       <div className={styles.rightside}>
-      <button className="download-button" role="button">
+      {/* <button className="download-button" role="button">
         download
-        </button>
-        <button className="github-button" >
-          Github  <AiOutlineStar /> {stars}
-        </button>
+        </button> */}
+         
+        <a className="github-button" href="https://github.com/oslabs-beta/RediSomm">
+          Github <AiOutlineStar style ={{ backgroundColor: 'transparent' }}/> {stars} 
+        </a>
         <button className="doc-button">DOCS</button>
+        <a className="article-button" href="https://medium.com/@sammahcarter/how-to-track-individual-keyspace-misses-in-your-redis-databases-84e99fdf7a" target="_blank" rel="noopener noreferrer">Medium Article</a>
       </div>
     </div>
 )};
+
 
 export default Navbar

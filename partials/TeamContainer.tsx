@@ -7,7 +7,7 @@ import { FaGithub } from "react-icons/fa";
 
 const TeamContainer = (): JSX.Element => {
     return (
-    <div>
+    <div className={styles.teamContainerBackground}>
     <motion.div className={styles.container}>
       {data.map(({ name, src, linkedIn, github }, i) => (
         <motion.div
@@ -40,14 +40,14 @@ const TeamContainer = (): JSX.Element => {
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              <FaLinkedin fill='#0072b1' />
+              <FaLinkedin style={{backgroundColor: '#7E212A', color: '#f2f0eb'}} />
             </motion.a>
             <motion.a
               href={github}
               whileHover={{ scale: 1.1 }}
               whileTap={{ scale: 0.9 }}
             >
-              <FaGithub />
+              <FaGithub style={{backgroundColor: '#7E212A', color: '#f2f0eb'}}/>
             </motion.a>
           </div>
         </motion.div>
@@ -64,19 +64,19 @@ const data = [
     linkedIn: "https://www.linkedin.com/in/andreabennett42/",
     github: "https://github.com/AndreaBennett42/",
     name: "Andrea Bennett",
-    src: "/team_photos/young_kim.png",
+    src: "/team_photos/andrea_bennett.jpg",
   },
   {
     linkedIn: "https://www.linkedin.com/in/andrew-c-park/",
     github: "https://github.com/andrewcpark/",
     name: "Andrew Park",
-    src: "/team_photos/andrew_park.jpg",
+    src: "/team_photos/andrew_park.png",
   },
   {
     linkedIn: "https://www.linkedin.com/in/cartersamj/",
     github: "https://github.com/cartersamj/",
     name: "Sam Carter",
-    src: "/team_photos/young_kim.png",
+    src: "/team_photos/sam_carter.jpg",
   },
   {
     linkedIn: "https://www.linkedin.com/in/young-suk-kim-30800a240/",

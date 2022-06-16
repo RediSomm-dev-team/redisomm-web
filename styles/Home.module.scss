@@ -11,6 +11,7 @@
   z-index: 2;
   top: 0;
   padding: 0 10vw;
+  background-color: $clr-primary-light;
 }
 
 .mainContainer {
@@ -24,15 +25,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid blue;
+  // border: 2px solid blue;
 }
 
+
 .titleContainer {
-  border: 1px solid black;
+  //border: 1px solid black;
   margin-top: 9em;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
 
+}
+
+.notAppTitle {
+  color: $clr-primary-dark;
+  font-weight: 500;
+}
+.appTitle {
+  color: $clr-primary;
+  font-weight: 800;
 }
