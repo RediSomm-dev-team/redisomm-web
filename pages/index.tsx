@@ -4,7 +4,6 @@ import Navbar from '../partials/Navbar'
 import Title from '../partials/Title'
 import TeamContainer from '../partials/TeamContainer'
 import FeatureCards from '../partials/FeatureCards'
-import TerminalDisplay from '../partials/terminal'
 import Carousel from '../partials/CarouselDisplay'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
@@ -21,9 +20,6 @@ const Home: NextPage = () => {
           <Title />
         <FeatureCards />
         <div className='terminalDisplay'>
-        {/* <TerminalDisplay command={
-              "npm install" 
-          }/> */}
         </div>
         <div className={styles.cardContainer}>
           <h4>Meet the team!</h4>
