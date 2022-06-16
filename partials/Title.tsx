@@ -13,7 +13,9 @@ const Title = (): JSX.Element => {
       animate={{ x: 0 }}
       transition={{ type: "spring", bounce: 0.25, duration: 0.5 }}
       >
-      <span className={styles.notAppTitle}>Monitor and Track Your Redis TTL Keys with</span> <span className={styles.appTitle}>RediSomm</span>
+      <div className={styles.text}>
+      <span className={styles.notAppTitle}>Monitor and Track Your Redis Database With</span> <span className={styles.appTitle}>RediSomm</span>
+      </div>
       </motion.h1>
       <motion.div
           className={styles.dashboardImage}
@@ -21,8 +23,9 @@ const Title = (): JSX.Element => {
           animate={{ x: 0 }}
           transition={{ type: "spring", bounce: 0.25, duration: 0.5 }}
         >
+          <div className={styles.redisommDemo} >
           <Image
-          className="redisomm-demo"
+          className='redisomm-demo'
             width={500}
             height={450}
             layout='intrinsic'
@@ -30,6 +33,7 @@ const Title = (): JSX.Element => {
             src='/images/redisomm-demo.png'
             alt='Screenshot of RediSomm'
           />
+          </div>
       </motion.div>
     </div>
 )};
