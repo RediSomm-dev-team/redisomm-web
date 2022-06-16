@@ -1,3 +1,12 @@
+
+.terminalDisplay {
+  padding: 20px;
+  padding-bottom: 30px;
+  align-items: center;
+}
+
+
+
 .container {
     position: relative;
     margin: 0 2rem;
@@ -5,11 +14,13 @@
     align-items: center;
     grid-gap: 2rem;
     grid-template-columns: minmax(300px, 1fr) minmax(300px, 1fr);
+    padding-top: 60px;
+    padding-bottom: 50px;
   }
   
   .terminalContainer {
     min-height: 2rem !important;
-    /* min-width: 25ch !important; */
+    min-width: 25ch !important; 
   }
   
   .terminalContainer pre {

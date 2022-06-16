@@ -27,12 +27,13 @@ const Navbar = (): JSX.Element => {
           />
       </div>
       <div className={styles.rightside}>
-      <button className="download-button" role="button">
+      {/* <button className="download-button" role="button">
         download
-        </button>
-        <button className="github-button" >
-          Github  <AiOutlineStar /> {stars}
-        </button>
+        </button> */}
+         <button className="article-button">Medium Article</button>
+        <a className="github-button" href="https://github.com/oslabs-beta/RediSomm">
+          Github <AiOutlineStar style ={{ backgroundColor: 'transparent' }}/> {stars} 
+        </a>
         <button className="doc-button">DOCS</button>
       </div>
     </div>

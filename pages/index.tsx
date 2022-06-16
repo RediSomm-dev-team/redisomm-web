@@ -20,10 +20,11 @@ const Home: NextPage = () => {
         <div className={styles.mainContainer}>
           <Title />
         <FeatureCards />
+        <div className='terminalDisplay'>
         <TerminalDisplay command={
               "npm install" 
           }/>
-        <Carousel />
+        </div>
         <div className={styles.cardContainer}>
           <h4>Meet the team!</h4>
           <TeamContainer />

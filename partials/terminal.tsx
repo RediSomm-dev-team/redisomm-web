@@ -17,7 +17,7 @@ const TerminalDisplay = ({ command, children }: TerminalProps) => {
   return (
     <div className={styles.container}>
       <Browser
-        background='lightgray'
+        background='transparent'
         className={styles.terminalContainer}
         onMouseOver={(_:any) => setTermHover(true)}
         onMouseLeave={(_:any) => setTermHover(false)}
@@ -60,6 +60,7 @@ const TerminalDisplay = ({ command, children }: TerminalProps) => {
           </Popover>
         </motion.div>
       </Browser>
+      <h5> Fork and clone our repo and instantly get started monitoring your Redis database! </h5>
       {children}
     </div>
   );
